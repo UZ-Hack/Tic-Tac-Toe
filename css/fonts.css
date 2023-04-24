@@ -1,0 +1,20 @@
+/* quantico-regular - latin */
+@font-face {
+font-display: swap;   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Quantico'; font-style: normal; font-weight: 400; src: url('../fonts/quantico-v15-latin-regular.eot');   /* IE9 Compat Modes */
+src: url('../fonts/quantico-v15-latin-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/quantico-v15-latin-regular.woff2') format('woff2'),url('../fonts/quantico-v15-latin-regular.woff') format('woff'),url('../fonts/quantico-v15-latin-regular.ttf') format('truetype'),url('../fonts/quantico-v15-latin-regular.svg#Quantico') format('svg');   /* IE6-IE8 */
+  /* Super Modern Browsers */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+}
+/* quantico-700 - latin */
+@font-face {
+font-display: swap;   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Quantico'; font-style: normal; font-weight: 700; src: url('../fonts/quantico-v15-latin-700.eot');   /* IE9 Compat Modes */
+src: url('../fonts/quantico-v15-latin-700.eot?#iefix') format('embedded-opentype'),url('../fonts/quantico-v15-latin-700.woff2') format('woff2'),url('../fonts/quantico-v15-latin-700.woff') format('woff'),url('../fonts/quantico-v15-latin-700.ttf') format('truetype'),url('../fonts/quantico-v15-latin-700.svg#Quantico') format('svg');   /* IE6-IE8 */
+  /* Super Modern Browsers */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+}

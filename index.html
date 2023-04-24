@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="lock">
+
+    <div class="bg-alpha start-game">
+        <button onclick="startGame()" class="btn start-game-btn">Start Game</button>
+    </div>
+
+    <div class="game">
+        <div class="container">
+            <h1 class="game__title">Tic Tac Toe</h1>
+            <span class="game__turn"></span>
+            <div class="game__board">
+                <div data-cell-index="0" class="game__board-cell"></div>
+                <div data-cell-index="1" class="game__board-cell"></div>
+                <div data-cell-index="2" class="game__board-cell"></div>
+                <div data-cell-index="3" class="game__board-cell"></div>
+                <div data-cell-index="4" class="game__board-cell"></div>
+                <div data-cell-index="5" class="game__board-cell"></div>
+                <div data-cell-index="6" class="game__board-cell"></div>
+                <div data-cell-index="7" class="game__board-cell"></div>
+                <div data-cell-index="8" class="game__board-cell"></div>
+            </div>
+            <button onclick="restartGame()" class="btn game__restart">Restart Game <i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+    </div>
+
+    <div class="bg-alpha none winner">
+        <h3 class="game__win"></h3>
+        <button onclick="restartGame()" class="btn game__restart">New Game</button>
+    </div>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
