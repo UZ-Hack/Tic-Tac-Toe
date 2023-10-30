@@ -9,8 +9,8 @@ function startGame() {
 
   const gameBoardCell = document.querySelectorAll(".game__board-cell");
 
-  const turnX = `<i class="fa-brands fa-react icon react-icon"></i>`;
-  const turnY = `<i class="fa-brands fa-node-js icon node-icon"></i>`;
+  const turnX = `<i class="fa-solid fa-xmark icon x-icon"></i>`;
+  const turnY = `<i class="fa-solid fa-o icon o-icon"></i>`;
 
   let currentTurnPlayer = turnX;
 
@@ -20,8 +20,8 @@ function startGame() {
 
   gameTurn.innerHTML = `It's ${currentTurnPlayer} turn`;
 
-  const playerX = `<i class="fa-brands fa-react cell-icon-react" style="color: #61dbfb;"></i>`;
-  const playerY = `<i class="fa-brands fa-node-js cell-icon-node" style="color: #68a063;"></i>`;
+  const playerX = `<i class="fa-solid fa-xmark" style="color: #61dbfb;"></i>`;
+  const playerY = `<i class="fa-solid fa-o" style="color: #68a063;"></i>`;
 
   gameBoardCell.forEach((cell) => {
     cell.addEventListener("click", function (currentPlayer) {

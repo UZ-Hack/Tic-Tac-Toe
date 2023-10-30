@@ -62,14 +62,14 @@ body.lock {
     background-color: #fff;
 }
 
-.react-icon {
+.x-icon {
     color: #61dbfb;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(97,219,251,1);
     -moz-box-shadow: 0px 0px 15px 0px rgba(97,219,251,1);
     box-shadow: 0px 0px 15px 0px rgba(97,219,251,1);    
 }
 
-.node-icon {
+.o-icon {
     color: #68a063;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(104,160,99,1);
     -moz-box-shadow: 0px 0px 15px 0px rgba(104,160,99,1);
